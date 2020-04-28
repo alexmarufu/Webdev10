@@ -1,0 +1,128 @@
+body{
+    box-shadow: black;
+    flex-shrink: inherit;
+    border-style: solid black;
+    border-width: 5px;
+}
+
+header{
+    text-align: center;
+    background-color: navy;
+    color: white;
+    height: 1.5cm;
+}
+
+.al{
+border-style: solid;
+}
+
+.kl{
+    border-style: double;
+}
+
+.al:hover{
+    background-color: rgb(94, 93, 93);
+    color:black;
+    }
+
+.kl:hover{
+        background-color: rgb(94, 93, 93);
+        color:black;
+        }
+.th:hover{
+         background-color: rgb(94, 93, 93);
+         color:black;
+         }
+
+ h3{
+     text-underline-position: below;
+ }       
+
+ footer{
+     background-color: rgb(27, 26, 27);
+     color: rgb(255, 255, 255);
+ }
+
+ nav{
+     background-color: rgb(87, 82, 82); 
+     color: white;
+ }
+
+ .home li{
+padding-right: 80px;
+display: inline-block;
+
+ }
+ .home li a:hover{
+     background-color: rgb(133, 127, 127);
+    
+ }
+ .home li a{
+     text-decoration: none;
+     color:white
+ }
+ 
+ img{
+     height:10cm;
+     width: 10cm;
+ }
+
+ button{
+     border: thin black;
+ }
+
+ .button:hover{
+     background-color:blue ;
+     color: white;
+    
+ }
+
+ #circle{
+        height:20px;
+        width:30px;
+        border-radius:50%;
+        animation-duration: 4s;
+        animation-iteration-count:infinite;
+        animation-name: circle;
+        background-color: rgb(81, 81, 190);
+    }
+
+    #circle-2{
+        height:20px;
+        width:30px;
+        border-radius:50%;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-name: circle;
+        background-color: rgb(226, 11, 11);
+    }
+
+@keyframes circle{
+    50%{
+        background-color: blue;left: 2px;bottom: 20px;
+    }
+    50%{
+        background-color: blueviolet;left: 2px;bottom: 20px;
+    }
+}
+ 
+@keyframes circle-2{
+    50%{
+        background-color: blue;left: 2px;bottom: 20px;
+    }
+    50%{
+        background-color: blueviolet;left: 2px;bottom: 20px;
+    }
+}
+
+.login{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.bt{
+    border-color: black;
+    
+}
