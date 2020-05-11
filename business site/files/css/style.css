@@ -1,0 +1,120 @@
+/*........................items..............*/
+#nav-color{
+  background-color: rgb(19, 19, 124);
+
+  }
+.home{
+  width: 2000px;
+  height: 2000px;
+  border: 2px solid black;
+}
+
+.items-name{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+
+.item-special{
+  width: 800px;
+  height: 200px;
+  position: relative;
+  border: 2px solid black; 
+  background-color: white;
+  margin: 0 auto 15px;
+  overflow: hidden;
+  padding-left: 50%;
+}
+
+h1{
+  text-align: center;
+ 
+  
+}
+
+
+header{
+  color: white;
+ background-color: rgb(19, 19, 124);
+}
+
+.item-block { 
+  position: relative;
+  border: 2px solid black; 
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  margin: 0 auto 15px;
+}
+
+.item-block span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+
+.item-special:hover {
+  box-shadow:rgb(10, 189, 10);
+}
+.item-block:hover {
+  box-shadow: 0 1px 5px 1px #323bb9;
+}
+
+/*........................items sale..............*/
+
+
+.item-details {
+  margin-bottom: 25px;
+}
+.item-details hr {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+.item-details .item-price {
+  font-size: 1.1em;
+  text-align: right;
+  margin-top: -15px;
+  margin-right: -15px;
+}
+.item-tile .item-price span {
+  font-size: .6em;
+}
+
+.items{
+  border: 2px solid black; 
+  width: 200px;
+  height: 200px;
+  background-color: white;
+
+}
+
+  .item-description {
+  padding-right: 30px;
+}
+
+h3.item-title {
+  margin: 0 0 10px;
+}
+.item-details {
+  font-size: .9em;
+  font-style: italic;
+}
+
+#main-content{
+background-color: rgb(153, 151, 151);
+}
