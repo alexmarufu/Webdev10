@@ -1,0 +1,32 @@
+-Personal Information
+Fisrt Name: Alex
+last Name: Marufu
+Religion: Chritian
+Date of Birth: 2001/01/26
+Gender: Male
+Nationality: Zimbabwean
+
+-education
+highest qualification: Matric/Grade12
+Year of completion: 2019
+School: Oxford Combined College
+
+
+-hobbies
+I like to draw ,i got a lot passion in Art and Coding 
+
+
+skills(compter programing skills)
+-HTML
+-CSS
+-JQuery
+-JavaScript 
+-Bootstrap 
+-Ajax 
+
+
+
+
+
+
+
