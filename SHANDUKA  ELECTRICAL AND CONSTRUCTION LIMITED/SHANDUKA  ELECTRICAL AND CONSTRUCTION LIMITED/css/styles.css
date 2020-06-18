@@ -1,0 +1,439 @@
+/**/
+
+header{
+  position: fixed;
+  width: 100%;
+}
+
+.footer {
+   left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  background-color: rgb(80, 80, 80);
+}
+
+html, body, #home-page {
+  height: 100%;
+  margin: 0;
+}
+
+.para-home {
+  text-align: center;
+  align-items: center;
+  font-size: 19px;
+  font-family: Simonetta;
+  color: white;
+}
+
+
+
+#home-page { 
+  width: 100%;
+  height: 619px;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8),
+                       rgba(0, 0, 0, 0.8)), url("https://github.com/GOMD24/images/blob/master/img()/img4.jpg?raw=true");
+}
+
+.img3 {
+  width: 600px;
+  height: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  font-family: Libre Baskerville;
+  text-align: center;
+  color: #0b51b4c2;
+  font-weight: bold;
+}
+
+.img1{
+  margin-top: 85px;
+  width: 600px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
+ 
+
+ .img2{
+  width: 300px;
+  height: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
+ 
+ .welcome-text{
+    align-items: center;
+     text-align: center;
+     text-shadow: black;
+     color: white;
+ }
+ 
+ h3{
+     text-align: center;
+ }
+ .heading{
+     text-align: center;
+     font-weight: bold;
+ }
+
+ 
+ .para1{
+     font-size: 20px;
+ }
+
+/**/
+.logo {
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-right: 8px;
+  width: 120px;
+  height: 120px;
+}
+
+#phone {
+  font-size: 28px;
+  margin-top: 20px;
+  text-align: center;
+  padding: 5px 5px;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 50px;
+  align-items: center;
+  background-color: rgb(61, 185, 88);
+  border-radius: 20px;
+}
+
+#img1 {
+  margin-top: 85px;
+}
+
+.contacts{
+  margin-top: 85px;
+  align-items: center;
+ text-align: center;
+ background-color: white;
+}
+
+
+#contacts{
+  margin-top: 85px;
+  align-items: center;
+}
+
+#phone:hover {
+  background-color: rgb(16, 92, 13);
+}
+
+.contacts a {
+  text-decoration: none;
+  text-align: center;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+#toggle {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 0.25rem;
+}
+
+.active {
+  background-color: #ccd3dd;
+}
+
+.nav-link {
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  #head{
+    font-size: 0;
+    margin-left: 10px;
+ }
+
+
+
+
+ .logo {
+  width: 70px;
+   height: 70px;
+   display: block;
+ }
+   .navbar-brand {
+     font-size: 7px;
+   }
+ }
+
+
+@media (max-width: 768px) {
+
+#head{
+   font-size: 0;
+   margin-left: 10px;
+}
+
+#home-page {
+  width: 100%;
+  height: 688px;
+}
+
+
+.para-home{
+  text-align: center;
+}
+
+
+.img1{
+  width: 300px;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+ .img3 {
+  width: 300px;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  margin-top: 0;
+  margin-right: 0;
+ width: 80px;
+  height: 80px;
+display: block;
+}
+  .navbar-brand {
+    font-size: 7px;
+  }
+}
+
+
+
+.navbar-brand  {
+font-family: Libre Baskerville;
+font-weight: bold;
+}
+            
+
+.txt1{
+    width: 50px;
+    height:10px;
+}
+ 
+p{
+    text-align: center;
+}
+
+
+
+.imgL{
+    text-align: center;
+    height: 50px;
+    width: 50px;
+}
+
+
+
+  h2 ,h3{
+      text-align: center;
+  }
+  
+a button{
+    text-align: center;
+}
+
+
+  /*navigation bar*/
+  
+.navbar {
+    background-color:rgb(26, 91, 187); 
+    box-shadow: 1px 1px 1px 1px rgb(19, 19, 128);
+    position: fixed;
+}
+  
+ 
+  nav ul li {
+    display: inline;
+    line-height: 80px;
+    margin: 0 20px;
+    
+    cursor: pointer;
+  }
+  
+  nav ul li a {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+  
+  }
+
+
+  /*ajax loader*/
+  #load {
+    display:none; 
+    text-align: center; 
+    align-items: center; 
+    margin-top: 50%;
+    margin-left: 50%;
+    width: 50px;
+    height: 50px
+  }
+  /****/
+  
+  
+  li:hover {
+    border-color: rgb(15, 75, 185);
+    transition: .4s;
+    background-color: #ccd3dd;
+  }
+  
+ 
+  
+  nav ul li a:hover {
+    color: white;
+    text-decoration: none;
+    }
+
+  .para {
+      text-align: center;
+      align-items: center;
+      font-size: 19px;
+  }
+  
+  
+  
+  .txt1{
+      width: 50px;
+      height:10px;
+  }
+  
+  
+  
+  form {
+     z-index: 1;
+     background-color: #eeeeee;
+     max-width: 320px;
+     padding: 45px;
+     text-align: center;
+     border-radius: 8px;
+     border: 1px #eeeeeecb;
+     box-shadow: 1px #eeeeeea8;
+     text-align: center;
+     align-items: center;
+     margin: 0 auto 15px;
+     left: 0%;
+     right: 10px;
+     top: 50px;
+     justify-items: center;
+     justify-content: center;
+  }
+
+ form #send{
+   background: #fffcfc;
+   width: 30%;
+   border: 1px solid rgb(173, 168, 168);
+   margin: 0 0 15px;
+   padding: 15px;
+   box-sizing: border-box;
+   font-size: 14px;
+   border-radius: 8px;
+   cursor: pointer;
+ }
+ 
+ form input {
+   background: #fffcfc;
+   width: 100%;
+   border: 1px solid rgb(173, 168, 168);
+   margin: 0 0 15px;
+   padding: 15px;
+   box-sizing: border-box;
+   font-size: 14px;
+   border-radius: 8px;
+ }
+ 
+ .form button{
+   font-family: Arial, Helvetica, sans-serif;
+   text-transform: uppercase;
+   outline: 0;
+   background: #4CAF50;
+   border: 1px solid black;
+   padding: 8px;
+   color: #ffffff;
+   font-size: 15px;
+   cursor: pointer;
+   border-radius: 8px;
+ 
+ }
+ 
+
+  textarea{
+    outline: 1;
+    background: #fffcfc;
+    width: 100%;
+    border: 1px solid rgb(173, 168, 168);
+    margin: 0 0 15px;
+    padding: 15px;
+    height: 120px;
+    box-sizing: border-box;
+    font-size: 14px;
+    border-radius: 8px;
+  }
+  
+  
+  #send:hover {
+  background-color: rgb(18, 190, 84);
+  }
+  
+  form #send {
+    width: 80px;
+    text-transform: uppercase;
+    outline: 0;
+    border: 1px solid rgb(39, 163, 87);
+    padding: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 8px;
+  
+  }
+  
+  .form button:hover, .form button:active {
+  background-color: rgb(42, 129, 45);
+  }
+  
+   
+  .form .message {
+    margin: 10px;
+    font-size: 15px;
+    text-decoration: none;
+  }
+ 
+  
+  
